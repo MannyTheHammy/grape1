@@ -28,10 +28,10 @@
 					<h4 class="mb-2"><strong>𝙂𝙍𝘼𝙋𝙀𝙅𝙐𝙄𝘾𝙀 𝙎𝙆 𝘽𝘼𝙎𝙀𝘿</strong></h4>
 
 					<textarea rows="12" class="form-control text-center form-checker mb-2" placeholder="𝙋𝙐𝙏 𝙔𝙊𝙐𝙍 𝘾𝘼𝙍𝘿𝙎 𝙃𝙀𝙍𝙀"></textarea>
-					<textarea rows="1" class="form-control text-center" style="width: 100%; float: left ;"  id="sec" placeholder="𝙨𝙠_𝙡𝙞𝙫𝙚_grapejuice"></textarea>
-					<textarea rows="1" class="form-control text-center" style="width: 70%; float: left ;"  id="bec" placeholder="TG ID"></textarea>
+					<textarea rows="1" class="form-control text-center" style="width: 100%; float: left ;"  id="sec" placeholder="𝙨𝙠_𝙡𝙞𝙫𝙚_𝘨𝘳𝘢𝘱𝘦𝘫𝘶𝘪𝘤𝘦"></textarea>
+					<textarea rows="1" class="form-control text-center" style="width: 70%; float: left ;"  id="bec" placeholder="TG ID FOR FORWARDING RECEIPTS ON GROUPS"></textarea>
 					
-					<a href='http://t.me/Grape_CC_Bot'>Start Bot </br> Here</a>
+					<a href='http://t.me/Grape_CC_Bot' target="_blank">Start Bot </br> Here</a>
 					
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
     <option </option>
