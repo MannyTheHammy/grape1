@@ -28,12 +28,9 @@
 					<h4 class="mb-2"><strong>𝙂𝙍𝘼𝙋𝙀𝙅𝙐𝙄𝘾𝙀 𝙎𝙆 𝘽𝘼𝙎𝙀𝘿</strong></h4>
 
 					<textarea rows="12" class="form-control text-center form-checker mb-2" placeholder="𝙋𝙐𝙏 𝙔𝙊𝙐𝙍 𝘾𝘼𝙍𝘿𝙎 𝙃𝙀𝙍𝙀"></textarea>
-					<textarea rows="1" class="form-control text-center" style="width: 100%; float: left ;"  id="sec" placeholder="𝙨𝙠_𝙡𝙞𝙫𝙚_𝘨𝘳𝘢𝘱𝘦𝘫𝘶𝘪𝘤𝘦"></textarea>
-					<textarea rows="1" class="form-control text-center" style="width: 70%; float: left ;"  id="bec" placeholder="TG ID FOR FORWARDING RECEIPTS TO GROUPS"></textarea>
-					
-					<a href='http://t.me/Grape_CC_Bot' target="_blank">Start Bot </br> Here</a>
-					
-					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
+					<textarea rows="1" class="form-control text-center" style="width: 70%; float: left ;"  id="sec" placeholder="𝙨𝙠_𝙡𝙞𝙫𝙚_𝘨𝘳𝘢𝘱𝘦𝘫𝘶𝘪𝘤𝘦"></textarea>
+					<textarea rows="1" class="form-control text-center" style="width: 30%; float: right margin-bottom; 5px;"  id="bec" placeholder="CHAT_ID"></textarea>
+						<select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
     <option </option>
 	            
 	            
@@ -112,7 +109,7 @@
                                 <div class="float-right">
                                     <button type="show" class="btn btn-primary btn-sm show-lives"><i class="fa fa-eye-slash"></i></button>
                                     <button class="btn btn-success btn-sm btn-copy"><i class="fa fa-copy"></i></button>					
-                                </div>
+                                </div>q
                                 <h4 class="card-title mb-1"><i class="fa fa-times text-success"></i> CCN</h4>
                                 <div id="lista_aprovadas"></div>
                             </div>
