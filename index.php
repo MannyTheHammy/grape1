@@ -109,7 +109,7 @@
                                 <div class="float-right">
                                     <button type="show" class="btn btn-primary btn-sm show-lives"><i class="fa fa-eye-slash"></i></button>
                                     <button class="btn btn-success btn-sm btn-copy"><i class="fa fa-copy"></i></button>					
-                                </div>q
+                                </div>
                                 <h4 class="card-title mb-1"><i class="fa fa-times text-success"></i> CCN</h4>
                                 <div id="lista_aprovadas"></div>
                             </div>
