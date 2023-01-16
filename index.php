@@ -85,7 +85,7 @@
                                 <hr>
                                 <h5>NAMSO GEN :<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="https://namso-gen.com/" target="_blank">CLICK</a></span></h5>
                                 <hr>
-                                <h5>CHECK SK :<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="#">SOON...</a></span></h5>
+                                <h5>CHECK SK :<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="https://t.me/chkr_ccbot" target="_blank">CLICK</a></span></h5>
                                 <!--
                                 <hr>
                                 <h5>FOUND BUG ?<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="https://t.me/adtitas" target="_blank">CONTACT</a></span></h5> -->
