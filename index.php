@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">    
-    <title>𝗚𝗥𝗔𝗣𝗘𝗝𝗨𝗜𝗖𝗘 𝗦𝗞 𝗕𝗔𝗦𝗘𝗗</title>
+    <title>𝐆𝐑𝐀𝐏𝐄𝐉𝐔𝐈𝐂𝐄 𝐒𝐊 𝐁𝐀𝐒𝐄𝐃</title>
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="theme-assets/css/vendors.css">
@@ -25,8 +25,7 @@
 		<div class="col-md-8">
 			<div class="card">
 				<div class="card-body text-center">
-					<h4 class="mb-2"><strong>𝙂𝙍𝘼𝙋𝙀𝙅𝙐𝙄𝘾𝙀 𝙎𝙆 𝘽𝘼𝙎𝙀𝘿</strong></h4>
-
+					<h4 class="mb-2"><strong>𝑮𝑹𝑨𝑷𝑬𝑱𝑼𝑰𝑪𝑬 𝑺𝑲 𝑩𝑨𝑺𝑬𝑫</strong></h4>
 					<textarea rows="12" class="form-control text-center form-checker mb-2" placeholder="𝙋𝙐𝙏 𝙔𝙊𝙐𝙍 𝘾𝘼𝙍𝘿𝙎 𝙃𝙀𝙍𝙀"></textarea>
 					<textarea rows="1" class="form-control text-center" style="width: 70%; float: left ;"  id="sec" placeholder="𝙨𝙠_𝙡𝙞𝙫𝙚_𝘨𝘳𝘢𝘱𝘦𝘫𝘶𝘪𝘤𝘦"></textarea>
 					<textarea rows="1" class="form-control text-center" style="width: 30%; float: right margin-bottom; 5px;"  id="bec" placeholder="CHAT_ID"></textarea>
