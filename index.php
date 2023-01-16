@@ -78,7 +78,21 @@
 
                             </div>
                         </div>
-              </div>
+                        <div class="card mb-2 hidden-mobile">
+                            <div class="card-body">
+
+                                <h4 class="text-center"><strong>Tools</strong></h4>
+                                <hr>
+                                <h5>NAMSO GEN :<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="https://namso-gen.com/" target="_blank">CLICK</a></span></h5>
+                                <hr>
+                                <h5>CHECK SK :<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="#">SOON...</a></span></h5>
+                                <!--
+                                <hr>
+                                <h5>FOUND BUG ?<span class="badge badge-primary float-right btn-bg-gradient-x-blue-cyan btn-primary"><a href="https://t.me/adtitas" target="_blank">CONTACT</a></span></h5> -->
+
+                            </div>
+                        </div>
+                    </div>
 <div class="col-xl-12">
                         <div class="card">
                             <div class="card-body">
