@@ -163,7 +163,8 @@
 <script>
 $(document).ready(function(){
 
-
+Swal.fire({ title: "yo yo", text: "Made By: GrapeJuice", icon: "success", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
+	
 const swalWithBootstrapButtons = Swal.mixin({
   customClass: {
     confirmButton: 'btn btn-success',
