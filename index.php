@@ -134,28 +134,19 @@
  
     <script src="theme-assets/js/core/libraries/jquery.min.js" type="text/javascript"></script>
     
-    
-
-</style>
+    </style>
 <footer>
-  <p> <b><div class=text-danger> 𝗠𝗔𝗗𝗘 𝗕𝗬 <a href="https://t.me/grapejuice100">𝗚𝗥𝗔𝗣𝗘𝗝𝗨𝗜𝗖𝗘, 𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 𝗦𝗬𝗡𝗭𝗫 𝗙𝗢𝗥 𝗚𝗔𝗧𝗘𝗦</b></a></div></p>
+  <p> <b><div class=text-danger> 𝗠𝗔𝗗𝗘 𝗕𝗬 <a href="https://t.me/grapejuice100">𝗚𝗥𝗔𝗣𝗘𝗝𝗨𝗜𝗖𝗘</b></a></div></p>
 </footer>
-<style>
-
-
-
 <style>
     footer {
   text-align: center;
   padding: 3px;
-  background-color: #000000;
-  color: #000000;
+  background-color: #ffffff;
+  color: #ffffff;
 }
-
 </style>
-
 <script>
-
 $(document).ready(function(){
 
 
