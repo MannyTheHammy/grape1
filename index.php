@@ -65,6 +65,7 @@
 <div class="card mb-2">
                             <div class="card-body">
                                 <button class="btn btn-glow btn-bg-gradient-x-blue-cyan text-white" onclick="window.open('https://t.me/Grape_CC_Bot','_blank')" style="width: 100%;">START THE BOT</button>
+                                <hr>
                                 <h5>TOTAL :<span class="badge badge-primary float-right carregadas">0</span></h5>
                                 <hr>
                                 <h5>CHARGED :<span class="badge badge-success float-right charge">0</span></h5>
